@@ -2,11 +2,12 @@ package gitinit
 
 import (
 	"errors"
-	ge "example/git-clone/pkg/gitError"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
+
+	ge "github.com/cocacola-lover/kitgit/pkg/gitError"
 
 	"gopkg.in/ini.v1"
 )

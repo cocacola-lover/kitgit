@@ -1,9 +1,10 @@
 package main
 
 import (
-	gitinit "example/git-clone/pkg/init"
 	"fmt"
 	"os"
+
+	gitinit "github.com/cocacola-lover/kitgit/pkg/init"
 )
 
 func main() {

@@ -1,10 +1,11 @@
 package gitrepository
 
 import (
-	ge "example/git-clone/pkg/gitError"
 	"fmt"
 	"os"
 	"path/filepath"
+
+	ge "github.com/cocacola-lover/kitgit/pkg/gitError"
 
 	"gopkg.in/ini.v1"
 )

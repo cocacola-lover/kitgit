@@ -2,11 +2,12 @@ package gitinit
 
 import (
 	"errors"
-	ge "example/git-clone/pkg/gitError"
 	"flag"
 	"fmt"
 	"os"
 	"path/filepath"
+
+	ge "github.com/cocacola-lover/kitgit/pkg/gitError"
 )
 
 func InitCmd(cmdLineArgs ...string) error {

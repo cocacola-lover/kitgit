@@ -1,4 +1,4 @@
-module example/git-clone
+module github.com/cocacola-lover/kitgit
 
 go 1.21.4
 
